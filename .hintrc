@@ -19,6 +19,12 @@
           "iframe[allow]"
         ]
       }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "dlitem": "off"
+      }
     ]
   }
 }
