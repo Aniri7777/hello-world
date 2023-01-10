@@ -1,0 +1,40 @@
+p {
+    background-color: aquamarine;
+    font-size: 50%;
+    align-content: center;
+}
+
+#decide {
+    color: blue;
+    font-style: italic;
+}
+
+.blue {
+    color: blueviolet;
+    font-size: 50%;
+}
+
+.bluebox {
+    background-color: #3A5795;
+    color: white;
+    height: 200px;
+    width: auto;
+}
+
+.yellowbox {
+    background-color: rgb(222, 224, 85);
+    height: 100px;
+    width: auto;
+}
+
+.greenbox {
+    background-color: #2b7a1d;
+    height: 100px;
+    width: auto;
+}
+
+.great {
+    color: rgb(7, 9, 9);
+    background-color: #ff0080;
+    font-size: 20px;
+}

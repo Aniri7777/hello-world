@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxModel</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        p {
+            margin: 10%;
+        }
+
+        .bluebox {
+            background-image: url(Images/picture3.jpg);
+            background-size: 100% 100%;
+            background-origin: border-box;
+            background-repeat: no-repeat;
+            height: 100px;
+            width: auto;
+            padding: 16px;
+            border: 10px rgb(207, 84, 156);
+            border-style: ridge;
+            border-radius: 200px;
+            outline-style: solid;
+            outline-color: yellowgreen;
+            outline-width: thick;
+            margin: 20px;
+
+        }
+
+        .yellowbox {
+            background-image: url(Images/picture2.jpg);
+            background-size: 100% 100%;
+            background-origin: border-box;
+            background-repeat: no-repeat;
+            padding: 10px 30px 50px 70px;
+            height: 100px;
+            width: 200px;
+            border-style: groove;
+            border-width: 100px 110px 90px 100px;
+            border-color: rgb(32, 207, 207) coral rgb(144, 27, 51) chartreuse;
+            border-radius: 40px;
+        }
+
+        .greenbox {
+            background-image: url(Images/picture1.jpg);
+            background-size: 100% 100%;
+            background-origin: border-box;
+            background-repeat: no-repeat;
+            padding: 20px 50px;
+            border-width: 15px 5px;
+            border-style: groove;
+            border-color: #ffad5b crimson;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bluebox">
+        <p>Facebook.</p>
+    </div>
+    <br>
+    <div class="yellowbox">
+        <p>Apple.</p>
+    </div>
+    <br>
+    <div class="greenbox">
+        <p>Microsoft.</p>
+    </div>
+</body>
+
+</html>
