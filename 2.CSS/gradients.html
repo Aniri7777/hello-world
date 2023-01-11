@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+    <style>
+        .bluebox {
+            background-color: blue;
+            color: white;
+            height: 100px;
+            width: 100px;
+            background: linear-gradient(red, green, red, green, red, green, red);
+            transition-duration: 1s;
+        }
+
+        .bluebox:hover {
+            width: 300px;
+
+        }
+
+        .yellowbox {
+            background: radial-gradient(red, blue, red, blue, red, blue, red);
+            color: rgb(12, 10, 10);
+            height: 100px;
+            width: 100px;
+            background: linear-gradient(34deg, green, yellow, green, yellow, green, yellow, green, yellow, green, yellow, green, yellow, green, yellow, green);
+            transition-duration: 1s;
+        }
+
+        .yellowbox:hover {
+            width: 300px;
+
+        }
+
+
+        .greenbox {
+            color: rgb(10, 9, 9);
+            height: 100px;
+            width: auto;
+            background: radial-gradient(red, blue, red, blue, red, blue, red);
+            transition-duration: 1s;
+        }
+
+        .greenbox:hover {
+            width: 100px;
+
+        }
+
+        a:link {
+            color: crimson;
+        }
+
+        a:hover {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bluebox">
+        <p>Facebook</p>
+        <p><a href="http://www.amazon.com">Visit Link</a></p>
+    </div>
+    <div class="yellowbox">
+        <p>Apple</p>
+        <p><a href="http://www.ebay.com">Visit Link</a></p>
+    </div>
+    <div class="greenbox">
+        <p>Microsoft</p>
+        <p><a href="http://www.cnn.com">Visit Link</a></p>
+    </div>
+</body>
+
+</html>

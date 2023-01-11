@@ -12,6 +12,13 @@
         ]
       }
     ],
-    "highest-available-document-mode": "off"
+    "highest-available-document-mode": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "meta-viewport": "off"
   }
 }

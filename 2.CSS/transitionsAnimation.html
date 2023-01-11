@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transitions and Animations</title>
+    <style>
+        .bluebox {
+            background: radial-gradient(red, blue, red, blue, red, blue, red);
+            color: white;
+            height: 100px;
+            width: 100px;
+            transform: 1s;
+            position: relative;
+            transition-duration: 1s;
+            animation: myanimation 3s;
+        }
+
+        /*         @keyframes myanimation {
+            from {background: blue}
+
+            to { background: red } 
+        } */
+
+        @keyframes myanimation {
+            0% {
+                background: blue;
+                /* border: groove 50px, red; */
+                left: 0px;
+                top: 0px
+            }
+
+            25% {
+                background: red;
+                /* border: groove 40px, blue; */
+                left: 300px;
+                top: 0px
+            }
+
+            50% {
+                background: blue;
+                /* border: groove 30px, red; */
+                left: 300px;
+                top: 300px
+            }
+
+            75% {
+                background: red;
+                /* border: groove 20px, blue; */
+                left: 0px;
+                top: 300px
+            }
+
+            /* 75% {
+                background: red;
+                left: 0px;
+                top: 0px
+            } */
+            /* We have Triangle */
+
+            100% {
+                background: blue;
+                /* border: groove 10px, red; */
+                left: 0px;
+                top: 0px
+            }
+
+
+        }
+
+        .bluebox:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotateX(180deg);
+        }
+
+        .yellowbox {
+            background-color: rgb(205, 244, 11);
+            color: rgb(12, 10, 10);
+            height: 100px;
+            width: auto;
+        }
+
+        .greenbox {
+            background-color: rgb(28, 140, 56);
+            color: rgb(10, 9, 9);
+            height: 100px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bluebox">
+        <p>Facebook</p>
+    </div>
+    <div class="yellowbox">
+        <p>Apple</p>
+    </div>
+    <div class="greenbox">
+        <p>Microsoft</p>
+    </div>
+</body>
+
+</html>
