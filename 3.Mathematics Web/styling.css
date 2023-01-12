@@ -22,6 +22,9 @@ h1 a {
 
 #searchBox {
     float: right;
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: -o- linear-gradient(#E4F2B9, #B7E953);
+    background: -moz- linear-gradient(#E4F2B9, #B7E953);
     background: linear-gradient(#E4F2B9, #B7E953);
     width: 400px;
     height: 50px;
@@ -35,6 +38,7 @@ h1 a {
     padding: 5px;
     font-size: 15px;
     color: orange;
+    border: 1px solid #C8D03E;
 }
 
 .submit {
@@ -53,6 +57,9 @@ h1 a {
 
 #menu {
     height: 70px;
+    background: -webkit-linear-gradient(#F8F594, #D5D533);
+    background: -o-linear-gradient(#F8F594, #D5D533);
+    background: -moz-linear-gradient(#F8F594, #D5D533);
     background: linear-gradient(#F8F594, #D5D533);
     padding: 7px 0;
 }
@@ -93,6 +100,9 @@ ul {
 }
 
 #introduction {
+    background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+    background: -o-linear-gradient(#E5F2BB, #B7E952);
+    background: -moz-linear-gradient(#E5F2BB, #B7E952);
     background: linear-gradient(#E5F2BB, #B7E952);
     padding: 30px;
     margin: 16px 0;
@@ -116,6 +126,7 @@ ul {
     border: 1px solid #BAF46F;
     border-radius: 20px;
     padding: 10px 30px;
+    margin-bottom: 15px;
 }
 
 .sidebar h3 {
@@ -124,15 +135,15 @@ ul {
 }
 
 #leftsidebar ul {
-    padding-top: 8px;
+    padding-top: 2px;
 }
 
 #leftsidebar ul li {
-    padding: 6px 0 6px 10px;
+    padding: 6px 0 2px 10px;
 }
 
 #rightsidebar ul li {
-    padding: 1px 0 20px 10px;
+    padding: 6px 0 2px 10px;
 }
 
 .sidebar ul li a {
@@ -161,4 +172,17 @@ ul {
 
 #rightsidebar {
     float: right;
+}
+
+.clear {
+    border: 2px solid, #5c26c1;
+}
+
+.footer {
+    height: 60px;
+    background: -webkit-linear-gradient(#F6F390, #D5D533);
+    background: -o-linear-gradient(#F6F390, #D5D533);
+    background: -moz-linear-gradient(#F6F390, #D5D533);
+    background: linear-gradient(#F6F390, #D5D533);
+    padding: 10px 20px;
 }
