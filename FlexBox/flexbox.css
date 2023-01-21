@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+
+}
+
+/*Style the container*/
+.container {
+    background-color: #075758;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+
+    /*create as many lines it's needed to fix the divs*/
+    flex-direction: row;
+    /* justify-content: center; */
+    /* cntrira vsichki divove*/
+    align-items: stretch;
+    align-content: center;
+    /*Elementite sa v centara na kontainera*/
+}
+
+/*Style div inside the container*/
+.container>div {
+    background-color: #66a5AD;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin: 1px;
+    border: 3px #C4DFE6 solid;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px; */
+    flex: none;
+    /*Izravnqva kolonite ili redovete*/
+    /*float: left;*/
+}
+
+#facebook {
+    color: rgb(22, 27, 27);
+    flex-grow: 2;
+    /*Fill the empty space*/
+}
+
+#apple {
+    background-color: black;
+    /* flex-shrink: 0; */
+    flex-shrink: 3;
+    /*Is not shrinking like others*/
+
+}
+
+/* #amazon {
+    flex-grow: 1;
+    /*Fill the last row pri shrinking*/
+/*/
